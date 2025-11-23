@@ -155,7 +155,7 @@ const Home = () => {
         className="theme-toggle"
         onClick={() => setIsDark(!isDark)}
       >
-        {isDark ? <LucideIcons.Sun size={20} /> : <LucideIcons.Moon size={20} />}
+        {isDark ? <Sun size={20} /> : <Moon size={20} />}
       </button>
 
       {/* Welcome Screen */}
